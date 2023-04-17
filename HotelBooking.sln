@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBooking.WebApi", "Hote
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBooking.Core.Test", "HotelBooking.Core.Test\HotelBooking.Core.Test.csproj", "{C59D3E02-3432-4034-AFA5-E22C63CE6361}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBooking.BlackBoxTests", "HotelBooking.BlackBoxTests\HotelBooking.BlackBoxTests.csproj", "{C5F5E94A-6609-4A7B-828C-18793679FA36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C59D3E02-3432-4034-AFA5-E22C63CE6361}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C59D3E02-3432-4034-AFA5-E22C63CE6361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C59D3E02-3432-4034-AFA5-E22C63CE6361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F5E94A-6609-4A7B-828C-18793679FA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F5E94A-6609-4A7B-828C-18793679FA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F5E94A-6609-4A7B-828C-18793679FA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F5E94A-6609-4A7B-828C-18793679FA36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

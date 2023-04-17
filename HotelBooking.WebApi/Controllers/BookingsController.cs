@@ -46,7 +46,9 @@ namespace HotelBooking.WebApi.Controllers
         [HttpPost]
         public IActionResult Post([FromBody]Booking booking)
         {
-            if (booking == null)
+            DateTime minimumAllowedDate = new DateTime(2000, 1, 1);
+
+            if (booking == null || booking.RoomId <= 0 || booking.EndDate <= booking.StartDate || booking.StartDate < minimumAllowedDate || booking.EndDate < DateTime.Today || booking.StartDate < DateTime.Today)
             {
                 return BadRequest();
             }
