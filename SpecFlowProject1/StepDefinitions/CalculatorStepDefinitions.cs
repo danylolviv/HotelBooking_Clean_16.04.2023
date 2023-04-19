@@ -24,9 +24,7 @@ namespace SpecFlowProject1.StepDefinitions
         [Given("when the first booking is (.*)")]
         public void GivenTheFirstBookingDateIs(int day)
         {
-
             startDate = DateTime.Today.AddDays(day);
-
         }
 
         [Given("the second booking is (.*)")]
@@ -36,7 +34,7 @@ namespace SpecFlowProject1.StepDefinitions
         }
 
         [When("the booking is created")]
-        public void WhenTheTwoBookingsAreCreated()
+        public void WhenTheBookingIsCreated()
         {
             // Arrange
             Booking booking = new Booking
@@ -47,7 +45,6 @@ namespace SpecFlowProject1.StepDefinitions
                 CustomerId = 1,
                 RoomId = 1
             };
-
 
             bookingCreated = bookingManager.CreateBooking(booking);
         }
